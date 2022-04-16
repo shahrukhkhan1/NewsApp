@@ -138,7 +138,7 @@ render() {
           hasMore={this.state.articles.length !== this.state.totalResults}
           loader={<h4><Loader/></h4>}
         >
-          <div className="container">
+          <div className="container" style={{padding:'25px'}}>
         <div className="row" >
         {
            this.state.articles.map((elem)=>{
