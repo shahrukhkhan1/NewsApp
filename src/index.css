@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.card img{
+  max-height: 160px;
+}
+
+.nav-link{
+  text-transform: capitalize;
+}
